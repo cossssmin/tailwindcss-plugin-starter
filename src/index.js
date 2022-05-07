@@ -2,7 +2,7 @@ const plugin = require('tailwindcss/plugin')
 
 const examplePlugin = plugin.withOptions(
   function (options) {
-    const className = options?.className ?? 'markdown'
+    const className = options ? options.className : 'markdown'
 
     return function ({ addBase, addUtilities, matchUtilities, addComponents, addVariant, theme }) {
       /**
