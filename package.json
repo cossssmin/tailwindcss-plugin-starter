@@ -13,7 +13,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "c8": "^7.11.2",
+    "c8": "^7.11.3",
     "jest": "^28.1.0",
     "np": "^7.6.1",
     "postcss": "^8.2.2",
