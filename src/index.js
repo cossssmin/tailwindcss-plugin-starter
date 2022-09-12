@@ -62,10 +62,17 @@ const examplePlugin = plugin.withOptions(
        * https://tailwindcss.com/docs/plugins#adding-variants
        */
 
-       addVariant('hocus', [
+      // Simple
+      addVariant('optional', '&:optional')
+
+      // Array
+      addVariant('hocus', [
         '&:hover',
         '&:focus'
       ])
+
+      // @media queries
+      addVariant('supports-grid', '@supports (display: grid)')
     }
   }, function (options) {
     /**

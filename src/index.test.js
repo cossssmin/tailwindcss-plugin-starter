@@ -108,7 +108,7 @@ it('addVariant', () => {
   })
 })
 
-it('addVariant (function)', () => {
+it('addVariant (array)', () => {
   const config = { content: [{ raw: String.raw`<div class="hocus:opacity-0"></div>` }],
   }
 
@@ -119,6 +119,21 @@ it('addVariant (function)', () => {
       }
       .hocus\:opacity-0:focus {
         opacity: 0;
+      }
+    `)
+  })
+})
+
+it('addVariant (media)', () => {
+  const config = { content: [{ raw: String.raw`<div class="supports-grid:hidden"></div>` }],
+  }
+
+  return run(config).then(result => {
+    expect(result.css).toMatchCss(String.raw`
+      @supports (display: grid) {
+        .supports-grid\:hidden {
+          display: none;
+        }
       }
     `)
   })
