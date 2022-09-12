@@ -20,7 +20,7 @@ This is a starter project for Tailwind CSS plugins.
   - `addUtilities`
   - `matchUtilities`
   - `addComponents`
-  - `addVariant` (with function, too)
+  - `addVariant`
   - exposing options
   - providing default values
 - Tests with [`Jest`](https://jestjs.io/)
