@@ -24,7 +24,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - updated `prettier` from 2.6.2 to 2.7.1
 - updated `np` from 7.6.1 to 7.6.2
 
-[0.2.0]: https://github.com/maizzle/tailwindcss-plugin-starter/releases/tag/v0.1.0
+[0.2.0]: https://github.com/maizzle/tailwindcss-plugin-starter/releases/tag/v0.2.0
 
 ## [0.1.0] - 2022-05-07
 
