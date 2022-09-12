@@ -109,13 +109,16 @@ it('addVariant', () => {
 })
 
 it('addVariant (function)', () => {
-  const config = { content: [{ raw: String.raw`<div class="foo:hidden"></div>` }],
+  const config = { content: [{ raw: String.raw`<div class="hocus:opacity-0"></div>` }],
   }
 
   return run(config).then(result => {
     expect(result.css).toMatchCss(String.raw`
-      .foo .hidden {
-        display: none;
+      .hocus\:opacity-0:hover {
+        opacity: 0;
+      }
+      .hocus\:opacity-0:focus {
+        opacity: 0;
       }
     `)
   })

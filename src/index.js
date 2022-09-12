@@ -11,8 +11,8 @@ const examplePlugin = plugin.withOptions(
        */
 
       addBase({
-        'h1': { fontSize: theme('fontSize.2xl') },
-        'h2': { fontSize: theme('fontSize.xl') },
+        h1: { fontSize: theme('fontSize.2xl') },
+        h2: { fontSize: theme('fontSize.xl') },
       })
 
       /**
@@ -37,10 +37,12 @@ const examplePlugin = plugin.withOptions(
       matchUtilities(
         {
           tab: value => ({
-            tabSize: value
+            tabSize: value,
           }),
         },
-        { values: theme('tabSize') }
+        {
+          values: theme('tabSize'),
+        }
       )
 
       /**
@@ -60,12 +62,10 @@ const examplePlugin = plugin.withOptions(
        * https://tailwindcss.com/docs/plugins#adding-variants
        */
 
-      addVariant('optional', '&:optional')
-
-      addVariant('foo', ctx => {
-        // Do stuff with ctx
-        return `.foo ${ctx.container.nodes[0].selector}`
-      })
+       addVariant('hocus', [
+        '&:hover',
+        '&:focus'
+      ])
     }
   }, function (options) {
     /**
