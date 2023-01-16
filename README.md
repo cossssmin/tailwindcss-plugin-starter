@@ -4,8 +4,12 @@
   <p>A boilerplate for Tailwind CSS plugins</p>
 
   <p>
-    <a href="https://github.com/maizzle/tailwindcss-plugin-starter/actions"><img src="https://img.shields.io/github/workflow/status/maizzle/tailwindcss-plugin-starter/Node.js%20CI" alt="Build Status"></a>
-    <a href="https://github.com/maizzle/tailwindcss-plugin-starter/blob/main/LICENSE"><img src="https://img.shields.io/github/license/maizzle/tailwindcss-plugin-starter" alt="License"></a>
+    <a href="https://github.com/cossssmin/tailwindcss-plugin-starter/actions">
+      <img src="https://github.com/cossssmin/tailwindcss-plugin-starter/actions/workflows/nodejs.yml/badge.svg" alt="Build Status">
+    </a>
+    <a href="https://github.com/cossssmin/tailwindcss-plugin-starter/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/maizzle/tailwindcss-plugin-starter" alt="License">
+    </a>
   </p>
 </div>
 
