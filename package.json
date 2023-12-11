@@ -18,7 +18,7 @@
     "np": "^9.0.0",
     "postcss": "^8.4.32",
     "prettier": "^2.8.8",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.6"
   },
   "peerDependencies": {
     "tailwindcss": ">=3.0.0"
