@@ -1,4 +1,4 @@
-const plugin = require('tailwindcss/plugin')
+import plugin from 'tailwindcss/plugin'
 
 const examplePlugin = plugin.withOptions(
   function (options) {
@@ -91,4 +91,4 @@ const examplePlugin = plugin.withOptions(
   }
 )
 
-module.exports = examplePlugin
+export default examplePlugin
