@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./.github/tailwindcss-mark.svg" alt="Tailwind CSS" width="108" height="66">
   <h1>Tailwind CSS Plugin Starter</h1>
-  <p>A boilerplate for Tailwind CSS plugins</p>
+  <p>A boilerplate for creating Tailwind CSS plugins</p>
 
   <p>
     <a href="https://github.com/cossssmin/tailwindcss-plugin-starter/actions">
@@ -27,10 +27,9 @@ This is a starter project for Tailwind CSS plugins.
   - `addVariant`
   - exposing options
   - providing default values
-- Tests with [`Jest`](https://jestjs.io/)
-- Coverage with [`c8`](https://github.com/bcoe/c8)
+- Tests with [`Vitest`](https://vitest.dev/)
+- Coverage with [`v8`](https://vitest.dev/guide/coverage)
 - Releases with [`np`](https://github.com/sindresorhus/np)
-- Code formatting with [`prettier`](https://prettier.io/)
 
 ### Getting started
 
