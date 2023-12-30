@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "release": "np",
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "test:dev": "vitest",
+    "test": "vitest run --coverage"
   },
   "license": "MIT",
   "repository": "https://github.com/maizzle/tailwindcss-plugin-starter",
