@@ -1,6 +1,6 @@
-import plugin from 'tailwindcss/plugin'
+const plugin = require('tailwindcss/plugin')
 
-const examplePlugin = plugin.withOptions(
+module.exports = plugin.withOptions(
   function (options) {
     const className = options ? options.className : 'markdown'
 
@@ -90,5 +90,3 @@ const examplePlugin = plugin.withOptions(
     }
   }
 )
-
-export default examplePlugin
