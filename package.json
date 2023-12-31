@@ -5,8 +5,9 @@
   "main": "src/index.js",
   "scripts": {
     "release": "np",
-    "test:dev": "vitest",
-    "test": "vitest run --coverage"
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run --coverage"
   },
   "license": "MIT",
   "repository": "https://github.com/maizzle/tailwindcss-plugin-starter",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "@vitest/coverage-v8": "^1.1.0",
+    "@vitest/ui": "^1.1.0",
     "np": "^9.2.0",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",
