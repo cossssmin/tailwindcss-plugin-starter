@@ -3,10 +3,8 @@
   <h1>Tailwind CSS Plugin Starter</h1>
   <p>A boilerplate for creating Tailwind CSS plugins</p>
 
-  <p>
-    <a href="https://github.com/cossssmin/tailwindcss-plugin-starter/actions"><img src="https://github.com/cossssmin/tailwindcss-plugin-starter/actions/workflows/nodejs.yml/badge.svg" alt="Build Status"></a>
-    <a href="https://github.com/cossssmin/tailwindcss-plugin-starter/blob/main/LICENSE"><img src="https://img.shields.io/github/license/maizzle/tailwindcss-plugin-starter" alt="License"></a>
-  </p>
+  [![Build][github-ci-shield]][github-ci]
+  [![License][license-shield]][license]
 </div>
 
 ### About
@@ -108,3 +106,8 @@ module.exports = {
   ],
 }
 ```
+
+[github-ci]: https://github.com/maizzle/tailwindcss-plugin-starter/actions
+[github-ci-shield]: https://github.com/maizzle/tailwindcss-plugin-starter/actions/workflows/nodejs.yml/badge.svg
+[license]: ./LICENSE
+[license-shield]: https://img.shields.io/github/license/maizzle/tailwindcss-plugin-starter?color=0e9f6e
