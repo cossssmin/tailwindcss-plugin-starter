@@ -9,7 +9,7 @@
 
 ### About
 
-This is a starter project for Tailwind CSS plugins.
+This is a starter project for creating Tailwind CSS plugins.
 
 ### Features
 
@@ -45,9 +45,15 @@ npm install
 
 Write your plugin in the `src/index.js`.
 
-Add tests in the `src/index.test.js` file.
-
 Use the provided examples or see the [Tailwind CSS plugin documentation](https://tailwindcss.com/docs/plugins).
+
+### Testing
+
+Add tests in the `src/index.test.js` file or create your own test files.
+
+Use `npm run dev` to start the test runner in watch mode.
+
+Use `npm test` to run the tests once, with a coverage report.
 
 ### Publishing to npm
 
@@ -75,7 +81,6 @@ npm install -D tailwindcss-plugin-name
 Then add the plugin to your `tailwind.config.js` file:
 
 ```js
-// tailwind.config.js
 module.exports = {
   theme: {
     // ...
@@ -93,7 +98,7 @@ Provide instructions for how to use the plugin.
 
 ## Configuration
 
-If your plugin is configurable, provide instructions for how to configure it.
+If your plugin is configurable, show users how to configure it.
 
 ```js
 // tailwind.config.js
