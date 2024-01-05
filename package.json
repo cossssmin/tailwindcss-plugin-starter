@@ -6,7 +6,6 @@
   "scripts": {
     "release": "np",
     "dev": "vitest",
-    "dev:ui": "vitest --ui",
     "test": "vitest run --coverage"
   },
   "license": "MIT",
