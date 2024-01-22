@@ -14,7 +14,7 @@
     "access": "public"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "^1.2.0",
+    "@vitest/coverage-v8": "^1.2.1",
     "np": "^9.2.0",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
