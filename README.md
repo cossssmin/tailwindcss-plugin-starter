@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./.github/tailwindcss-mark.svg" alt="Tailwind CSS" width="108" height="66">
   <h1>Tailwind CSS Plugin Starter</h1>
-  <p>A boilerplate for creating Tailwind CSS plugins</p>
+  <p>A boilerplate for creating Tailwind CSS 3 plugins</p>
 
   [![Build][github-ci-shield]][github-ci]
   [![License][license-shield]][license]
@@ -9,7 +9,7 @@
 
 ### About
 
-This is a starter project for creating Tailwind CSS plugins.
+This is a starter project for creating Tailwind CSS 3 plugins.
 
 ### Features
 
